@@ -13,10 +13,9 @@ if(max1<a[i]){
 else if(max2<a[i] && a[i]!=max1){
      max2=a[i];
 }
+}
 
-else {
-     cout<<max2<<endl;
-}
-}
+cout<<max2<<endl;
+    
 return 0;
 }
